@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    border: 1px solid burlywood;
+}
+.navbar,
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-right: 25px;
+}
+.servicios li a{
+    color: rgb(0, 0, 0);
+}
+#hero{
+    background-image: url(./assets/img/cafeTortoni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position-y: 30%;
+}
+.heroInfo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: #1b171885;
+}
+.heroInfo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    font-size: 44px;
+    color: #D8CFAE;
+    font-weight: 700;
+    margin-left: 2.5rem;
+}
+.heroCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 40%;
+    margin: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(3px); 
+    border: 1px solid burlywood;
+}
+.heroCardTop,
+.heroCardBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroCardTop h3{
+    font-size: 22px;
+    color: #D8CFAE;
+}
+.heroCardTop span{
+    font-size: 50px;
+    color: #D8CFAE;
+}
+.found{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.foundInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+    gap: 20px;
+}
+.foundInfo h1{
+    font-size: 4rem;
+}
+.foundInfo h3{
+    font-size: 2rem;
+}
+.foundInfo p{
+    font-size: 16px;
+}
+.foundMore{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-image: url(./assets/img/Cafeteria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+.foundKnow{
+    width: 25%;
+    backdrop-filter: blur(3px);
+}
+.buttonKnow{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10px;
+    border: 1px solid brown;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+.item-product{
+    font-size: 24px;
+    text-align: center;
+}
+.placePhotos
