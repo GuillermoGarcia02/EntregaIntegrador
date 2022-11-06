@@ -19,9 +19,9 @@
       <img src="./assets/img/edmundoRivero.jpg" alt="EdmundoRivero" class="logoHeader"/>
       <nav class="navbar">
         <ul class="servicios">
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#acerca">Acerca</a></li>
+          <li><a href="#login">Login</a></li>
         </ul>
         <i class="fa-solid fa-mug-hot"></i>
       </nav>
@@ -42,7 +42,7 @@
               </div>
             </div>
         </section>
-        <section class="found">
+        <section class="found" id="acerca">
           <div class="foundInfo">
             <h1>Encontra tu</h1>
             <h3>--Coffee Store favorito</h3>
@@ -52,11 +52,7 @@
           </div>
           <div class="foundMore">
             <div class="foundKnow">
-              <div class="buttonKnow">
-                <p>Encontra Mas</p>
-                <button class="knowMore">Saber Mas</button>
-              </div>
-            </div>
+          </div>
           </div>
         </section>
         <section class="products">
@@ -74,14 +70,40 @@
           </div>
         </section>
         <section class="placePhotos">
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div> 
+          <div>
+            <img src="./assets/img/CafeSirve.avif" alt="">
+            <img src="./assets/img/TrabajadorCafe.avif" alt="">
+            <img src="./assets/img/cafeTortoni.jpg" alt="">
+            <img src="./assets/img/Cafecompu.jpg" alt="">
+            <img src="./assets/img/CafeVidrio.jpg" alt="">
+            <img src="./assets/img/FormaCafe.avif" alt="">
+            <img src="./assets/img/EntradaTortoni.jpg" alt="">
+            <img src="./assets/img/CafeTortonisirve.jpg" alt="">
+          </div>
+        </section>
+        <section class="contact">
+          <img src="./assets/img/mapa.png" alt="">
+          <div class="contact-card">
+            <ul class="contact-list">
+              <li>Visitar</li>
+              <li>Acerca</li>
+              <li>Registrarse</li>
+            </ul>
+          </div>
+          <form action="#" id="contacto">
+            <input type="text" id="name" placeholder="Your Name">
+            <label for="name"></label>
+            <input type="text" id="email"  placeholder="Your Email">
+            <label for="email"></label>
+            <input type="text" id="phone" placeholder="Phone Number(Optional)">
+            <label for="phone"></label>
+            <textarea name="opinion" id="opinion" cols="30" rows="5"></textarea>
+            <button class="btn-send">Send</button>
+          </form>
         </section>
     </main>
+    <footer class="footer">
+      <span>Copyright 2022</span>
+    </footer>
   </body>
 </html>
