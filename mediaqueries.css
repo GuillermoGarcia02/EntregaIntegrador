@@ -1,0 +1,104 @@
+@media (min-width:1200px){
+    .placePhotos div img:nth-child(8){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroInfo h1{
+       width: 615px;
+    }
+    .heroCard{
+        width: 330px;
+    }
+    .cafeToggle{
+        margin-right: 0;
+       }
+    
+    .menu-label{
+        cursor: pointer;
+        display: flex;
+        order: 2;
+    }
+    .i{
+        height: 40px;
+    }
+    #menu-toggle:checked + .servicios{
+        display: flex;
+    }
+    .servicios{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #151314;
+        border: 2px solid #938889;
+        border-top: 0px;
+        border-radius: 0px 0px 20px 20px;
+        align-items: flex-start;
+        padding: 40px 30px;
+        gap: 25px;
+        z-index: 2;
+         display: none; 
+       }
+}
+@media (max-width:992px){
+    .heroInfo{
+        display: flex;
+        padding-top: 100px;
+        flex-direction: column;
+         align-items: center;
+    }
+    .placePhotos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 90px;
+    }
+    .placePhotos div img:nth-child(8){
+        display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn-send{
+        align-items: center;
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width:768px){
+    .heroInfo h1{
+        width: 300px;
+    }
+    .foundInfo{
+        width: 525px;     
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .item-product img{
+        width: 140px;
+    }
+}
+@media (max-width:576px){
+    .navbar{
+        width: 2,3px;
+    }
+    .foundMore{
+        display: none;
+    }
+    .item-product img{
+        width: 20px;
+    }
+    .contact img{
+        width: 300px;
+    }
+}
