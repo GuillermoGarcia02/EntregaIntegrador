@@ -85,6 +85,9 @@ main{
     font-size: 50px;
     color: #D8CFAE;
 }
+.heroCardBottom p{
+    font-size: 22px;
+}
 .found{
     width: 100%;
     height: 500px;
@@ -149,7 +152,7 @@ main{
     width: 12.2%;
     height: 185px;
     opacity: 0.8;
-    transition: 1.3s;
+    transition: 0.9s;
     object-fit: cover;
 }
 .placePhotos img:hover{
@@ -214,3 +217,162 @@ footer{
     background-color: #151314;
     color: #938889;
 }
+.register-redirect{
+    color: #96AB9C;
+}
+.register-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151314;
+}
+.image-coffe{
+    width: 30%;
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+}
+.register-form:focus{
+    color: #938889;
+}
+.btn-register{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #938889;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #151314;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #151314;
+}
+.form-login{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.init-sesion{
+    width: 100%;
+    padding: 10px;
+    background-color: #938889;
+    border-radius: 10px;
+}
+.init-sesion a{
+    color: #151314;
+}
+.coffePlace{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+.info-card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.bg{
+    width: 550px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (max-width:1200px){
+    .placePhotos div img:nth-child(8){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroInfo h1{
+       width: 615px;
+    }
+    .heroCard{
+        width: 330px;
+    }
+}
+@media (max-width:992px){
+    .heroInfo{
+        display: flex;
+        padding-top: 100px;
+        flex-direction: column;
+         align-items: center;
+    }
+    .placePhotos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 90px;
+    }
+    .placePhotos div img:nth-child(8){
+        display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn-send{
+        align-items: center;
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width:768px){
+    .heroInfo h1{
+        width: 300px;
+    }
+    .foundInfo{
+        width: 525px;     
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .item-product img{
+        width: 140px;
+    }
+}
+@media (max-width:576px){
+    .navbar{
+        width: 2,3px;
+    }
+    .foundMore{
+        display: none;
+    }
+    .item-product img{
+        width: 20px;
+    }
+    .contact img{
+        width: 300px;
+    }
+}
+
+
+
+
