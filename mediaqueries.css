@@ -1,4 +1,4 @@
-@media (min-width:1200px){
+@media (max-width:1200px){
     .placePhotos div img:nth-child(8){
         display: flex;
         justify-content: center;
