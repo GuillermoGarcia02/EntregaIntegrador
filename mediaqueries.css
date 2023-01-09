@@ -27,7 +27,7 @@
     }
     .servicios{
         position: absolute;
-        top: 65px;
+        top: 55px;
         left: 5%;
         right: 5%;
         width: 90%;
@@ -88,6 +88,11 @@
         width: 140px;
     }
 }
+@media(max-width:630px){
+    .products{
+        flex-direction: column;
+    }
+}
 @media (max-width:576px){
     .navbar{
         width: 2,3px;
@@ -95,10 +100,30 @@
     .foundMore{
         display: none;
     }
-    .item-product img{
-        width: 20px;
-    }
     .contact img{
         width: 300px;
+    }
+    .placePhotos {
+        padding-left: 65px;
+    }
+}
+@media (max-width:370px){
+    .placePhotos {
+        padding-left: 30px;
+    }
+    .foundInfo{
+        max-width: 500px;
+    }
+    .heroInfo h1{
+        max-width: 275px;
+        font-size: 19px;
+        align-items: center;
+        margin-left: 0;
+    }
+    .heroCard{
+        max-width: 300px;
+    }
+    .found{
+        height: 640px;
     }
 }

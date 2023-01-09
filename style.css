@@ -188,7 +188,7 @@ main{
     color: #96AB9C;
 }
 form{
-    width: 35%;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -216,7 +216,7 @@ textarea{
 
 }
 form button{
-    width: 30%;
+    max-width: 75px;
     align-items: flex-end;
     color: blue;
 }
@@ -261,10 +261,10 @@ footer{
     color: #938889;
 }
 .btn-register{
-    width: 100%;
+    max-width: 200px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #938889;
+    background-color: ##D8CFAE;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -273,6 +273,12 @@ footer{
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+.getBack{
+    display: flex;
+    justify-content: center;
+    color: #D8CFAE;
+    text-decoration: underline;
 }
 .login{
     display: flex;
@@ -290,7 +296,7 @@ footer{
     text-align: center;
 }
 .init-sesion{
-    width: 100%;
+    max-width: 200px;
     padding: 10px;
     background-color: #938889;
     border-radius: 10px;
